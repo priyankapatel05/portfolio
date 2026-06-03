@@ -1,0 +1,194 @@
+<!doctype html>
+<html lange="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" contnt="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> Personal Portfolio Website </title>
+   <link rel="stylesheet" href="portfolio.css">
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+   <div id="header">
+      <div class="container">
+         <nav>
+            <img src="C:\Users\Priyanka Patel\Pictures\photo.jpg" class="logo">
+            <ul>
+               <li><a href="#header">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#services">Services</a></li>
+               <li><a href="#portfolio">Portfolio</a></li>
+               <li><a href="#contact">Contact</a></li>
+               <i class="fas fa-user-times"></i>
+            </ul>
+            <i class="fas fa-bars"></i>
+         </nav>
+         <div class="hearer-text">
+            <p> Web Developer//Web Designer</p>
+            <h1> Hi, I'am <span> Priyanka Patel </span><br>From Banaras</h1>
+         </div>
+      </div>
+   </div>
+   <!---------------------------------------------------about---------------------------------------------------------------------->
+   <div id="about">
+      <div class="container">
+         <div class="row">
+            <div class="about-col-1">
+               <img src="C:\Users\pp175\OneDrive\Pictures\download (8).jpg">
+               <h1 class="subtitle">About Me</h1>
+
+               <p> My self Priyanka Patel. I'am purshing B.Tech from IT Branch. I'am a learner / Programmer /Web
+                  Developer.
+
+               </p>
+
+               <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                  <p class="tab-links" onclick="opentab('experience') ">Experience</p>
+                  <p class="tab-links" onclick="opentab('education')">Education</p>
+               </div>
+               <marquee direction="up">
+                  <div class="tab-contents active-tab" id="skills">
+                     <ul>
+                        <li><span>Web Development</span><br>Web Designing</li>
+                        <li><span>Programmer</span><br>html/css /js/c/python</li>
+                        <li><span>Learner</span><br>new skills</li>
+                     </ul>
+
+                     <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                           <li><span>2023-current</span><br>Web Development Intership at Codsoft.</li>
+                           <li><span>2023</span><br>robotic competition to e-Yantra (IIT bomboy)</li>
+
+                        </ul>
+                     </div>
+                     <div class="tab-contents active-tab" id="education">
+                        <ul>
+                           <li><span>2015</span><br>10th</li>
+                           <li><span>2017</span><br>12th</li>
+                           <li><span>2025</span><br>B.Tech</li>
+                        </ul>
+                     </div>
+                  </div>
+               </marquee>
+            </div>
+         </div>
+      </div>
+      <!-------------------------------------services-------------------------------------------------------------------->
+      <div id="services">
+         <div class="container">
+            <h3 class="sub-title">My Services</h3>
+            <div class="services-list">
+               <div>
+                  <i class="fa-solid fa-code"></i>
+                  <h2> Web Design</h2>
+                  <p>Web design is the process of planning, conceptualizing, and implementing
+                     the plan for designing a website in a way that is functional and offers a
+                     good user experience.
+                  </p>
+                  <a href="#">Learn more</a>
+               </div>
+               <div>
+
+                  <i class="fa-sharp fa-solid fa-crop"></i>
+                  <h2>UI/UX Design</h2>
+                  <p>UX design involes managing the user journey as they interact with a product
+                     or service, while UI design focuses on the actual construction of that product
+                     or services's interface.
+
+                  </p>
+                  <a href="#">Learn more</a>
+               </div>
+               <div>
+                  <i class="fa-sharp fa-solid fa-crop"></i>
+                  <h2> Web Developer </h2>
+                  <p>Learning to more program is about understanding how to translate throghts into source
+                     code that can be executed on computers to achive one or more goals.
+                  </p>
+                  <a href="#">Learner more</a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-----------------------------------------portfolio------------------------------------------------------------->
+      <div id="portfolio">
+         <div class="container">
+            <h3 class="sub-title"> My Work</h3>
+
+            <div class=" Work">
+
+               <div class="work 1">
+                  <img src="C:\Users\pp175\OneDrive\Pictures\istockphoto-1205703732-612x612.jpg">
+                  <h3> Online shoping App</h3>
+                  <p> The app connects you the talented people around the world.
+                     Download it from play store.</p>
+                  <a href="#"></a>
+                  <div class="work2">
+                     <img src="C:\Users\pp175\OneDrive\Pictures\istockphoto-1408387701-612x612.jpg">
+                     <h3>Social Media App</h3>
+
+                     <p> The app connects you the talented eople around people the world.
+                        Download it from play store.</p>
+                     <a href="#"></a>
+                  </div>
+               </div>
+            </div>
+
+
+         </div>
+         <a href="#" class="btn">See more</a>
+      </div>
+      <!------------------------------------------contact--------------------------------------------->
+      <div id="contact">
+         <div class="container">
+            <div class="row">
+               <div class="contact-left">
+                  <h1 class="sub-title">Contact Me</h1>
+                  <p><i class="fas fa-paper-plane"></i>contact@pp1752001@gmail.com</p>
+                  <p><i class="fas fa-phone"></i>6386018587</p>
+                  <div class="social-icons">
+                     <a href=""><i class="fab fa-linkedin"></i></a>
+
+                  </div>
+                  <a href="www.linkedin.com/in/priyanka-patel-2a2720242" clas="btn btn2">Download Profile</a>
+               </div>
+               <div class="contact-right">
+                  <form>
+                     <input type="text" name="Name" placeholder="Your  Fullname" required>
+                     <input type="email" name="email" placeholder="Your Email" requir>
+                     <input type="mobileno." name="Mobile Number" placeholder="Mobile Number" required>
+                     <input type="number" name="age" placeholder="Age" required>
+                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                     <button type="submit" class="btn btn2">Submit</button>
+                  </form>
+               </div>
+
+            </div>
+         </div>
+      </div>
+      <div class="copyright">
+         <p>COpyright @ priyanka patel.<i class="fas fa-heart" aria-hidden="true"></i> Personal Portfolio Website </p>
+      </div>
+
+   </div>
+   <script>
+
+      var tablinks = document.getElementByClassName("tab-links");
+      var tablcontents = document.getElementByClassName("tab-contents");
+      function opentab(tabname) {
+         for (tablink of tablinks) {
+            tablink.classlist.remove("active-link");
+         }
+         for (content of tabcontents) {
+            tabcontent.classlist.remove("actinve-tab");
+         }
+         event.currentTarget.classlist.add("active-link");
+         document.getElementById(tabname).classlist.add("active-tab");
+      }
+   </script>
+</body>
+
+</html>
